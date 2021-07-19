@@ -1,6 +1,5 @@
-{
-  "homepage": "http://apurav10.github.io/weather_app",
-  "name": "weather_app",
+{ "homepage": "http://apurav10.github.io/weather_app",
+   "name": "weather_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +13,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+  "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
